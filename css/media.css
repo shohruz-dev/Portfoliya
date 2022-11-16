@@ -1,0 +1,30 @@
+@media only screen and (max-width: 1000px) {
+  body .container {
+    margin: 10px;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  body .container .right__Side .interest ul {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media only screen and (max-width: 600px) {
+  body .container {
+    margin: 0;
+  }
+  body .container .right__Side .about .box {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  body .container .right__Side .about .box .year__conpany {
+    min-width: 150px;
+    margin-bottom: 5px;
+  }
+  body .container .right__Side .skills .box {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  body .container .right__Side .interest ul {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}/*# sourceMappingURL=media.css.map */

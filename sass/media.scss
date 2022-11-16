@@ -1,0 +1,43 @@
+@media only screen and (max-width:1000px){
+    body{
+        .container{
+            margin:10px;
+            grid-template-columns:repeat(1,1fr);
+            .right__Side{
+                .interest{
+                    ul{
+                       grid-template-columns:repeat(2,1fr);
+                    }
+                }
+            }
+        }
+    } 
+}
+@media only screen and (max-width:600px){
+    body{
+        .container{
+            margin:0;
+            .right__Side{
+                .about{
+                    .box{
+                        flex-direction: column;
+                        .year__conpany{
+                            min-width:150px;
+                            margin-bottom:5px;
+                        }
+                    }
+                }
+                .skills{
+                    .box{
+                        grid-template-columns:repeat(1,1fr);
+                    }
+                }
+                .interest{
+                    ul{
+                       grid-template-columns:repeat(1,1fr);
+                    }
+                }
+            }
+        }
+    } 
+}
